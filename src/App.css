@@ -1,0 +1,474 @@
+*{
+  margin: 0;
+  /* padding: 0; */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background-color: rgb(245, 245, 245);
+  /* width: 500%; */
+}
+.login-container {
+  width: 50vw;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center
+}
+.form-group input {
+  width: 100%;
+  height: 30px;
+  background-color: hsl(0, 0%, 98%);
+  border-radius: 10px;
+  border-color: #D9D9D9;
+  font-size: large;
+}
+.form-group input::placeholder {
+  font-size: large;
+  padding: 10px;
+}
+.form-group button{
+  width: 30vw;
+  height: 40px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+.login-container h1{
+  font-size: 85px;
+  font-weight: bold;
+}
+.login-container h6{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: -40px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.Navbar{
+  /* background-color: black;
+  width: 18%;
+  height: 100%;
+  position: fixed;
+  overflow: auto; */
+  /* display: block; */
+  /* width: 100%; */
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  /* z-index: 1; */
+  /* top: 0; */
+  /* left: 0; */
+  background-color: #111;
+  /* overflow-x: hidden; */
+  padding-top: 20px;
+}
+.Navbar h1{
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+/* .sidecontainer a:hover {
+color: rgb(214, 27, 214);
+border: 1px solid rgb(214, 27, 214);
+padding: 10px;
+} */
+
+ul{
+  list-style-type: none;
+  /* padding-bottom: 16px; */
+  /* padding-right: 20px; */
+}
+li a{
+  margin-bottom: 7px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-bottom: 16px;
+  /* margin-right: 20px; */
+}
+/* li a:hover {
+  background-color: rgba(226, 20, 226, 0.712);
+  padding: 10px;
+} */
+.pagecontent{
+  font-size: 28px;
+  padding: 0px 20px; 
+  float:left;
+  margin-left: 190px;
+  width: 82%;
+  /* width: auto; */
+}
+.searchbox {
+  /* float:; */
+  width: 200px;
+  padding: 6px 10px;
+  /* margin-top: 8px; */
+  margin-right: 16px;
+  /* background: #ddd; */
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.topsection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+  /* padding: 30px; */
+  /* margin-bottom: 30px; */
+  position: relative;
+}
+.searchbox input{
+  padding: 5px 300px 5px 0px;
+  /* align-items: center; */
+}
+.sidebar{
+  background-color: white;
+  border-radius: 8px;
+  /* margin-top: 10px; */
+  margin: 8px;
+  padding: 15px;
+  /* padding: 10px 0px 10px 300px; */
+  /* padding-right: 300px; */
+  /* display: block; */
+  /* justify-content: space-between; */
+  /* gap: 10px; */
+
+}
+.sidebar h6{
+  display: contents;
+}
+.first{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+select{
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid white;
+}
+.boxes{
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 5px;
+  gap: 16px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+.boxes p{
+  font-size: small;
+}
+.boxes p sub{
+  color: rgba(121, 121, 121, 1);
+}
+.box1{
+  background-color: white;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.box2{
+  background-color: white;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.box3{
+  background-color: white;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.box4{
+  background-color: white;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 20px;
+}
+.lastsection{
+  width: 600px;
+  background-color: white;
+  border-radius: 14px;
+  padding: 18px;
+  margin: 15px;
+}
+.subsection{
+  display: flex;
+  gap: 75px;
+}
+.card label{
+  display: flex;
+font-size: small;
+}
+.card input{
+  width: fit-content;
+}
+
+.login{
+  /* display: block;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  padding: 200px;
+  line-height: 35px;
+  background-color: white;
+}
+.form-container{
+  padding:20px
+  /* width: 500px; */
+  /* width:50%; */
+}
+.form-section{
+  margin-bottom: 10px;
+}
+/* .form-input{
+  padding: 15px 0 15px 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid rgba(217, 217, 217, 1);
+  background-color: rgba(217, 217, 217, 1);
+  padding-right: 30px;
+  width: 450px;
+} */
+.middlesection input{
+  /* padding-left: 10px; */
+  display: flex;
+  align-items: first baseline;
+}
+.optn{
+  display: flex;
+  justify-content: space-evenly;
+}
+.login-btn{
+  width: 450px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 0;  
+  background-color: black;
+  color: white;
+}
+.terminalsection{
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+.terminalsection sub{
+  font-size: small;
+}
+.terminalsection sup{
+  font-size: small;
+}
+.terminal-box {
+  border: 0px solid #ccc;
+  background: white;
+  border-radius: 5px;
+  padding: 15px 20px 15px 20px;
+  margin: 5px 10px 20px 10px;
+  border-radius: 14px;
+}
+.agentsection{
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+.agentsection sub{
+  font-size: small;
+}
+.agent-box {
+  border: 0px solid #ccc;
+  background: white;
+  border-radius: 5px;
+  padding: 15px 20px 15px 20px;
+  margin: 5px 10px 20px 10px;
+  border-radius: 14px;
+}
+.transactionsection{
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+.transactionsection sub{
+  font-size: small;
+}
+.transaction-box {
+  border: 0px solid #ccc;
+  background: white;
+  border-radius: 5px;
+  padding: 15px 20px 15px 20px;
+  margin: 5px 10px 20px 10px;
+  border-radius: 14px;
+}
+.icon img {
+  width: 50px;
+  height: 50px;
+}
+table {
+  width: 100%;
+  font-size: small;
+  border-collapse: collapse;
+  /* border-radius: 50px; */
+  border-top-left-radius: 5px;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+
+}
+
+th {
+  /* background-color: #f2f2f2; */
+  background: rgba(32, 74, 127, 1);
+  color: white  ;
+  /* border-top-left-radius: 5px; */
+}
+
+/* Alternate row background color */
+tbody tr:nth-child(even) {
+  /* background-color: #f2f2f2; */
+}
+
+/* Status cell styling */
+td:last-child {
+  color: black;
+  /* font-weight: bold; */
+  padding: 8px 12px;
+}
+
+/* Active status */
+td:last-child.active {
+  background-color: #4CAF50; /* Green */
+}
+
+/* Inactive status */
+td:last-child.inactive {
+  background-color: #f44336; /* Red */
+}
+tbody{
+  background: white;
+}
+.container {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: small;
+}
+
+.transaction-header {
+  background-color: rgba(32, 74, 127, 1);
+  margin: 0px, 10px, 2px 10px;
+  padding: 5px 10px;
+  font-weight: bold;
+  display: flex;
+  font-size: medium;
+  justify-content: space-between;
+}
+
+.transaction-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.transaction-row div {
+  padding: 10px;
+}
+
+.transaction-row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Using normal icon images and calling them using css, this is easy */
+.backdrop{
+  background: url('../src/components/icons/pos.jpeg') no-repeat center center/cover;
+  height: 100vh;
+  width: 50%;
+}
+.login_page{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 0;
+}
+/* Using the Unicode of the icon */
+.box1::before{
+  content: "\1F4CA";
+  display: block;
+}
+.tp::before{
+  content: "🡽";
+  color: lightgreen;
+  font-size: x-small;
+}
+.box2::before{
+  content: "\1F4F1";
+  display: block;
+}
+.tpft::before{
+content: "🢆";
+color: red;
+}
+.box3::before{
+  content: "\1F4CD";
+}
+.box4::before{
+  content: "\1F464";
+  /* display: block; */
+}
+.terminal-box::before{
+  content: "\1F4F1";
+}
+.agent-box::before{
+  content: "\1F464";
+}
+.transaction-box::before{
+  content: "\1F9FE";
+}
